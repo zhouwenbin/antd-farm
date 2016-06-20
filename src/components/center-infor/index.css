@@ -1,0 +1,14 @@
+.center-infor{
+	padding: 13px 40px 0;
+}
+.center-infor li{
+	color: #5e1f12;
+	font-size: 24px;
+	padding-bottom: 16px;
+	padding-top: 31px;
+	border-bottom: 3px solid rgba(16,14,10,0.2);
+}
+.center-infor li span{
+	display: inline-block;
+	width: 145px;
+}

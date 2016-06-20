@@ -1,0 +1,6 @@
+@import url(./base/normalize.css);
+@import url(./base/base.css);
+@import url(./base/layout.css);
+body{
+	background: url(img/bg.jpg) no-repeat;
+}

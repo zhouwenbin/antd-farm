@@ -1,0 +1,19 @@
+@import url(../dialog/index.css?__inline);
+@import url(../nav/index.css?__inline);
+.sence h1{
+	text-indent: -999em;
+	width: 150px;
+	height: 41px;
+	display: inline-block;
+	background-image: url(img/title.png);
+}
+.sence ul{
+	overflow: hidden;
+	padding-left: 63px;
+	padding-top: 122px;
+}
+.sence li{
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 8px;
+}

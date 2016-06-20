@@ -1,0 +1,60 @@
+.name{
+	color: #682b18;
+	background: url(img/bg.png) no-repeat 22px 6px;
+	font-weight: bold;
+	display: flex;
+	width: 291px;
+	position: absolute;
+	left: 21px;
+	top: 26px;
+	text-shadow: 0px 3px #fff,
+				 0px -3px #fff,
+				 3px 0px #fff,
+				 -3px 0px #fff;
+}
+.name h1{
+	font-size: 24px;
+	margin-bottom: 6px;
+}
+.name p{
+	font-size: 19px;
+	margin-bottom: 8px;
+	margin-right: -4px;
+}
+.name-star{
+	display: flex;
+	justify-content: flex-end;
+}
+.name-star li{
+	margin-left: 3px;
+	width: 23px;
+	height: 26px;
+	background-image: url(img/star.png?__sprite);
+}
+.name-sum{
+	width: 45px;
+	height: 48px;
+	background-image: url(img/sum.png?__sprite);
+	position: absolute;
+	left: 51px;
+	top: -10px;
+}
+.name-photo{
+	width:86px;
+	height: 86px;
+	border-radius: 50%;
+	border:3px solid #fff;
+	margin-right: 6px;
+}
+.name-icon{
+	width: 57px;
+	height: 55px;
+	background-image: url(img/icon.png?__sprite);
+	margin-top: 10px;
+}
+.name-main{
+	margin-right: 12px;
+	text-align: right;
+	margin-top: -2px;
+	flex:1;
+}

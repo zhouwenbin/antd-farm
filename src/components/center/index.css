@@ -1,0 +1,76 @@
+@import url(../dialog/index.css?__inline);
+@import url(../center-focus/index.css?__inline);
+@import url(../center-infor/index.css?__inline);
+@import url(../center-notice/index.css?__inline);
+.center{
+	display: flex;
+}
+
+.center-photo{
+	width: 76px;
+	height: 77px;
+	background-image: url(img/center-photo.png?__sprite);
+	text-align: center;
+	padding-top: 4px;
+	margin-right: 12px;
+}
+.center-photo img{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+}
+.center-person{
+	display: flex;
+	align-items: center;
+	padding-top: 49px;
+	padding-left: 41px;
+	margin-bottom: 91px;
+	text-shadow: 0px 2px #fff9e3,
+				 0px -2px #fff9e3,
+				 2px 0px #fff9e3,
+				 -2px 0px #fff9e3;
+	
+}
+.center-text h2{
+	font-size: 24px;
+	margin-bottom: 11px;
+}
+.center-text p{
+	font-size: 20px;
+}
+.center-c1 ul{
+	padding-left: 64px;
+}
+.center-c1 li{
+	width: 180px;
+	height: 64px;
+	margin-bottom: 11px;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	padding-top: 16px;
+	text-shadow: 0px 3px #b26d22,
+				 0px -3px #b26d22,
+				 3px 0px #b26d22,
+				 -3px 0px #b26d22;
+	background-image: url(img/center-li.png?__sprite);
+}
+.center-c1 li.active{
+	background-image: url(img/center-li-active.png?__sprite);
+	text-shadow: 0px 3px #b81b1d,
+				 0px -3px #b81b1d,
+				 3px 0px #b81b1d,
+				 -3px 0px #b81b1d;
+}
+
+
+.center-c2{
+	margin-left: 41px;
+	padding-top: 56px;
+}
+
+.center-bg{
+	background: url(img/center-bg.png?__sprite);
+	width: 810px;
+	height: 472px;
+}

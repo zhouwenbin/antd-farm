@@ -1,0 +1,27 @@
+.center-notice{
+	padding: 15px 5px 0;
+}
+.center-notice-icon{
+	background: url(img/icon.png);
+	width: 88px;
+	height: 66px;
+	margin-left: 26px;
+	margin-right: 19px;
+}
+.center-notice li{
+	padding-top: 12px;
+	padding-bottom: 18px;
+	color: #5e1f12;
+	display: flex;
+	align-items: flex-end;
+}
+.center-notice li:nth-child(even){
+	background: rgba(0,0,0,0.2);
+}
+.center-notice h2{
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+.center-notice p{
+	font-size: 16px;
+}

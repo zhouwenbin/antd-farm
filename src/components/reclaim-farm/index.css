@@ -1,0 +1,77 @@
+.reclaim-farm-title{
+	text-indent: -999em;
+	width: 152px;
+	height: 43px;
+	display: inline-block;
+	background-image: url(img/title.png?__sprite);
+}
+.reclaim-farm-selects{
+	display: flex;
+	padding: 17px 0 17px 22px;
+}
+.reclaim-farm-selects select{
+	appearance:none;
+	width: 210px;
+	display: inline-block;
+	height: 47px;
+	line-height: 47px;
+	background-image: url(img/select.png?__sprite);
+	background-color: transparent;
+	border:none;
+	font-size: 18px;
+	color: #fff;
+	padding-left: 21px;
+	margin-right: 31px;
+}
+.reclaim-farm-list{
+	padding: 0 7px;
+}
+.reclaim-farm-list li{
+	display: flex;
+	align-items: center;
+	padding: 10px 22px 15px;
+}
+.reclaim-farm-list li:nth-child(odd){
+	background-color: rgba(0,0,0,0.1);
+}
+.reclaim-farm-list-c2{
+	flex:1;
+	margin-left: 20px;
+}
+.reclaim-farm-list-c3{
+	text-align: right;
+}
+.reclaim-farm-star{
+	width: 32px;
+	height: 31px;
+	display: inline-block;
+	background-image: url(img/star.png?__sprite);
+}
+.reclaim-farm-list img{
+	background: #fff6d8;
+  	box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.15);
+  	border-radius: 10px;
+  	padding-top: 2px;
+  	padding-right: 2px;
+}
+.reclaim-farm-list h2,
+.reclaim-farm-price{
+	font-size: 24px;
+	text-shadow: 0px 2px #fff9e3,
+				 0px -2px #fff9e3,
+				 2px 0px #fff9e3,
+				 -2px 0px #fff9e3;
+}
+.reclaim-farm-list h2{
+	color:#5e1f12;
+	margin-bottom: 11px;
+}
+.reclaim-farm-price{
+	color: #e11301;
+	margin-bottom: 21px;
+}
+.reclaim-farm-comment{
+	font-size: 14px;
+	color: #5e1f12;
+}
+

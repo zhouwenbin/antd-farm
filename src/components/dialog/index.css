@@ -1,0 +1,32 @@
+.dialog{
+	width: 1133px;
+	height: 570px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 999;
+	transform: translate(-50%,-50%);
+	background-image: url(img/dialog.png);
+}
+.dialog-close{
+	width: 64px;
+	height: 64px;
+	background-image: url(img/close.png);
+	right: -12px;
+	top: -12px;
+	position: absolute;
+}
+.dialog header{
+	width: 283px;
+	height: 70px;
+	color: #fff;
+	font-size: 36px;
+	background-image: url(img/header.png);
+	text-align: center;
+	position: absolute;
+	top: -16px;
+	left: 50%;
+	transform: translate(-50%,0);
+	text-align: center;
+	padding-top:11px;
+}

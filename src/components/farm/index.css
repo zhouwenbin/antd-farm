@@ -1,0 +1,79 @@
+.farm-flower{
+	width: 122px;
+	height: 91px;
+	background-image: url(img/flower.png);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.farm-corn{
+	width: 62px;
+	height: 67px;
+	background-image: url(img/corn.png);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.farm-cabbage{
+	width: 73px;
+	height: 70px;
+	background-image: url(img/cabbage.png);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.farm-persimmon{
+	width: 177px;
+	height: 154px;
+	background-image: url(img/persimmon.png);
+}
+.farm-floor{
+	width: 199px;
+	height: 100px;
+	background-image: url(img/floor.png);
+}
+.farm-floor.empty{
+	background-image: url(img/floor-empty.png);
+}
+
+.farm{
+	display: flex;
+	align-items: flex-end;
+	padding-left: 200px;
+}
+.farm ul{
+	transform: rotate(64deg);
+}
+.farm li{
+	transform: rotate(-64deg);
+	position: relative;
+	margin:8px 0;
+	width: 199px;
+	height: 100px;
+}
+.farm ul:nth-child(1){
+	transform: rotate(64deg) translateY(-20px);
+}
+.farm ul:nth-child(1) li{
+	margin: -26px 0;
+	width: 177px;
+	height: 154px;
+}
+.farm ul:nth-child(2){
+	transform: rotate(64deg) translate(35px,91px)
+}
+.farm ul:nth-child(3){
+	transform: rotate(64deg) translate(35px,202px)
+}
+.farm ul:nth-child(4){
+	transform: rotate(64deg) translate(95px,269px)
+}
+.farm ul:nth-child(5){
+	transform: rotate(64deg) translate(95px,382px)
+}
+.farm ul:nth-child(6){
+	transform: rotate(64deg) translate(95px,493px);
+}

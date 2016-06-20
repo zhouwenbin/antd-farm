@@ -1,0 +1,45 @@
+.reclaim-estate-title{
+	text-indent: -999em;
+	width: 150px;
+	height: 41px;
+	display: inline-block;
+	background-image: url(img/title.png?__sprite);
+}
+.reclaim-estate{
+	color:#5e1f12;
+	font-size: 24px;
+	padding: 7px;
+	text-shadow: 0px 2px #fff9e3,
+				 0px -2px #fff9e3,
+				 2px 0px #fff9e3,
+				 -2px 0px #fff9e3;
+}
+.reclaim-estate>li{
+	border-bottom: 3px solid rgba(16,14,10,0.2);
+	padding:21px 0 21px 34px;
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+}
+.reclaim-estate>li:last-child{
+	border-bottom: none;
+}
+.reclaim-estate>li span{
+	width: 130px;
+}
+.reclaim-estate-photo{
+	overflow: hidden;
+}
+.reclaim-estate-photo>li{
+	margin-right: 10px;
+	float: left;
+}
+.reclaim-estate-focus{
+	background-image: url(img/focus.png?__sprite);
+	width: 108px;
+	height: 48px;
+	text-indent: -999em;
+	position: absolute;
+	right: 42px;
+	top: 9px;
+}
